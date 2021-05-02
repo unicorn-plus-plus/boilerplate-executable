@@ -9,4 +9,5 @@ add_executable(
 target_link_libraries(
   "${PROJECT_NAME}App"
   ${PROJECT_NAME}
+  ${SUBMODULES_NAME}
 )

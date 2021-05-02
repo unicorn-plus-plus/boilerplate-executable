@@ -20,5 +20,6 @@ target_link_libraries(
   "${PROJECT_NAME}Test"
   PRIVATE
   ${PROJECT_NAME}
+  ${SUBMODULES_NAME}
   Catch2::Catch2
 )
