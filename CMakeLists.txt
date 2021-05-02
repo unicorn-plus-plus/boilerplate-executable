@@ -13,12 +13,11 @@ file(READ upp.json conf)
 sbeParseJson(config conf)
 
 project(
-    "${config.name}"
+    "${config.namespace}${config.name}"
     VERSION "${config.version}"
     DESCRIPTION "${config.description}"
     LANGUAGES CXX
     )
-set(PROJECT_NAMESPACE "${config.namespace}")
 
 # Load modules
 unset (SUBMODULES_NAME)
