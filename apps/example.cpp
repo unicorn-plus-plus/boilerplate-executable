@@ -1,5 +1,7 @@
-#include <SimpleClass.hpp>
+#include <TBR_NAMESPACE/SimpleClass.hpp>
 #include <iostream>
+
+using namespace TBR_NAMESPACE;
 
 int main(int argc, char const *argv[]) {
   SimpleClass simple;

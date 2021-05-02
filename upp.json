@@ -1,5 +1,6 @@
 {
   "name": "TBR_NAME",
+  "namespace": "TBR_NAMESPACE",
   "version": "0.0.0",
   "description": "TBR_DESCRIPTION",
   "modules": []

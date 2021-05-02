@@ -17,7 +17,8 @@ project(
     VERSION "${config.version}"
     DESCRIPTION "${config.description}"
     LANGUAGES CXX
-)
+    )
+set(PROJECT_NAMESPACE "${config.namespace}")
 
 # Load modules
 unset (SUBMODULES_NAME)

@@ -1,4 +1,6 @@
-#include <SimpleClass.hpp>
+#include <TBR_NAMESPACE/SimpleClass.hpp>
+
+using namespace TBR_NAMESPACE;
 
 SimpleClass::SimpleClass()
     : number{0} {}
