@@ -1,5 +1,7 @@
-#include <SimpleClass.hpp>
+#include <TBR_NAMESPACE/SimpleClass.hpp>
 #include <catch2/catch.hpp>
+
+using namespace TBR_NAMESPACE;
 
 TEST_CASE("SimpleClass SimpleClass()", "[simple]") {
   SimpleClass simple;
